@@ -7,6 +7,7 @@
 - **Nombre del docente:** Gamarra Moreno, Job Daniel
 
 ## Enlaces a los Ejercicios
+- [Enlace GitHub Pages](https://omarpiero.github.io/html-css-miniprojects/)
 - [Ejercicio 01 - Tarjeta Personal](./ejercicio-01)
 - [Ejercicio 02 - Receta de Cocina](./ejercicio-02)
 - [Ejercicio 03 - Landing Page](./ejercicio-03)

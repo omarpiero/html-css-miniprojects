@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro de nuevo cliente</title>
+</head>
+<div>
+
+    <body>
+        <h1>Formulario de registro de nuevo cliente</h1>
+        <style>
+            h3 {
+                color: red;
+            }
+        </style>
+        <h3>Gracias por considerarnos para ser tu proveedor de servicios. Para que te brindemos el mejor serivicio, <br>
+            por favor completa el formulario de Registro de Nuevo Cliente debajo. <br>
+            <br>
+            La informacion recabada sobre el nuevo cliente es estrictamente confidencial. Sólo formularios <br>
+            llenados por completo son aceptados.
+        </h3>
+    </body>
+</div>
+<!-- Estructura básica de formulario -->
+<form action="#" method="POST">
+    <fieldset>
+        <legend>Información General</legend>
+        <div>
+            <label for="fecha">Selecciona la fecha de registro:</label>
+            <input type="date" id="fecha" name="fecha" required>
+        </div>
+    </fieldset>
+    <br>
+    <!-- Agrupación de datos personales -->
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+    </fieldset>
+
+    <br>
+
+    <!-- Agrupación del mensaje o requerimiento -->
+    <fieldset>
+        <legend>Detalles del Mensaje</legend>
+
+        <div>
+            <label for="asunto">Asunto:</label>
+            <select id="asunto" name="asunto">
+                <option value="consulta">Consulta general</option>
+                <option value="soporte">Soporte técnico</option>
+                <option value="sugerencia">Sugerencia</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label for="mensaje">Comentarios:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="5" cols="40" required></textarea>
+        </div>
+    </fieldset>
+
+    <br>
+
+    <!-- Botones de acción -->
+    <div>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpiar formulario</button>
+    </div>
+
+</form>
+</body>
+
+</html>

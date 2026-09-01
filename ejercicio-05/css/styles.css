@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #6802C1;
+    --accent-color: #63AEE6;
+    --text-color: #212322;
+    --card-bg: #FFFFFF;
+}
+
+body {
+    color: var(--text-color);
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.pricing-card {
+    background: var(--card-bg);
+    border: 1px solid var(--accent-color);
+    padding: 20px;
+    position: relative;
+}
+
+.pricing-card.pro {
+    transform: scale(1.05);
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--primary-color);
+    color: var(--card-bg);
+    padding: 5px 10px;
+}
+
+button {
+    background: var(--primary-color);
+    color: var(--card-bg);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--accent-color);
+}
+
+button:active {
+    transform: scale(0.95);
+}

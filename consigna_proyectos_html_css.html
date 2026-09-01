@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Consigna de Proyectos HTML5 y CSS3</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=okYSMkdMnf8hQDHa-q2AgI1fx0V1ema9FOROLdrozH9nbkSCEr3b21mM0SCG1fjqYWEcgb8ypAd-PUcVRPgB2aBHSEMI-w4FonOS9AafVI_LfufqBeXf-KOB6HtKUdcieEkjmYo4kOaZIDgc7UyHnNzBpjrJKvSR5C_qRAQDJiuYmGMJcFVqyU_2AXJesVs58Rdm16iD1xYcbiexgbTKbFo6bkEmOVPmVwpv2zmxgiQbm1mH1Fk6kzrPH7krQ1PPM20AQtah4iwGx-6pKaGWMOiqVlvFQK-IzrO0w41EWVJBrcv8DYyR64YwTrhCKxMRWNh9uakeMTaMMDXMBf5gpKhwCp4pGI4W1v1-LBH2wiE" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jb250cmlidXRpb24tcnQudXNlcmNvbnRlbnQuZ29vZ2xlLmNvbS9kb3dubG9hZD9jPUNneGlZWEprWDNOMGIzSmhaMlVTVUJJTmNtVnpjRzl1YzJWZlpHRjBZUm9fQ2pCaVpqZ3laR0kyTURkaFl6WTBOMll5TURBd05qVmhOVGMwWm1KaFlqaGtZVEF4TXpBM09USm1PV0l5TnpFek1HTVNDeElIRU16dGo4NllIeGdCJmZpbGVuYW1lPWNvbnNpZ25hX3Byb3llY3Rvc19odG1sX2Nzcy5odG1sJm9waT0xMDMxMzUwNTA"/><style>
+    @page {
+        size: A4;
+        margin: 15mm 12mm;
+        background-color: #ffffff;
+    }
+    *, *::before, *::after {
+        box-sizing: border-box;
+    }
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        color: #212322;
+        line-height: 1.5;
+        font-size: 12pt;
+        margin: 0;
+        padding: 0;
+    }
+    h1, h2, h3, h4 {
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        page-break-after: avoid;
+    }
+    h3 {
+        page-break-after: avoid;
+    }
+    .banner {
+        background-color: #6802C1;
+        color: #ffffff;
+        padding: 25px 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        margin-bottom: 25px;
+    }
+    .banner h1 {
+        color: #ffffff;
+        margin: 0 0 10px 0;
+        font-size: 22pt;
+        font-weight: bold;
+        border-bottom: 2px solid #63AEE6;
+        padding-bottom: 10px;
+    }
+    .banner p {
+        margin: 0;
+        font-size: 11pt;
+        opacity: 0.95;
+        line-height: 1.5;
+    }
+    .section-title {
+        color: #6802C1;
+        border-bottom: 2px solid #E9ECEF;
+        padding-bottom: 8px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        font-size: 15pt;
+        font-weight: bold;
+    }
+    .rules-card {
+        background-color: #F8F9FA;
+        border-left: 6px solid #6802C1;
+        padding: 18px 20px;
+        border-radius: 4px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        margin: 20px 0;
+    }
+    .rules-card h3 {
+        color: #6802C1;
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 13pt;
+        font-weight: bold;
+    }
+    .rules-card ul {
+        margin: 0;
+        padding-left: 20px;
+        color: #333333;
+    }
+    .rules-card li {
+        margin-bottom: 8px;
+    }
+    .exercise-card {
+        background-color: #FFFFFF;
+        border: 1px solid #E9ECEF;
+        border-radius: 6px;
+        padding: 18px 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+        page-break-inside: avoid;
+    }
+    .exercise-card h3 {
+        color: #0202C6;
+        margin-top: 0;
+        margin-bottom: 6px;
+        font-size: 13pt;
+        font-weight: bold;
+    }
+    .file-path {
+        margin: 0 0 12px 0;
+        font-size: 10pt;
+        color: #63AEE6;
+        font-weight: bold;
+    }
+    .file-path code {
+        background-color: #F8F9FA;
+        padding: 2px 6px;
+        border-radius: 3px;
+        color: #212322;
+        font-family: monospace;
+    }
+    .code-box {
+        background-color: #212322;
+        color: #F8F9FA;
+        padding: 12px 15px;
+        border-radius: 5px;
+        font-family: monospace;
+        font-size: 9.5pt;
+        margin-top: 12px;
+        line-height: 1.4;
+    }
+    .code-header {
+        color: #63AEE6;
+        font-weight: bold;
+        margin-bottom: 6px;
+    }
+    .code-highlight {
+        color: #FFD166;
+    }
+    .code-string {
+        color: #00E676;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 10pt;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        page-break-inside: avoid;
+    }
+    th {
+        background-color: #6802C1;
+        color: #ffffff;
+        padding: 9px 12px;
+        border: 1px solid #6802C1;
+        font-weight: bold;
+    }
+    td {
+        padding: 9px 12px;
+        border: 1px solid #E9ECEF;
+    }
+    tr:nth-child(even) {
+        background-color: #F8F9FA;
+    }
+    tr:nth-child(odd) {
+        background-color: #FFFFFF;
+    }
+    .info-callout {
+        background-color: #F8F9FA;
+        border-left: 4px solid #0202C6;
+        padding: 12px 15px;
+        border-radius: 4px;
+        margin-top: 15px;
+        font-size: 10pt;
+    }
+    hr {
+        border: none;
+        border-top: 1px solid #E9ECEF;
+        margin: 25px 0;
+    }
+    ul, ol {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    li {
+        margin-bottom: 4px;
+    }
+</style>
+</head>
+<body>
+
+<!-- BANNER PRINCIPAL INSTITUCIONAL -->
+<div class="banner">
+    <h1>Consigna de Mini Proyectos: HTML5 y CSS3</h1>
+    <p>
+        Especificaciones técnicas, estándares de maquetación y modalidad de entrega en GitHub para los 5 ejercicios prácticos de la asignatura.
+    </p>
+</div>
+
+<!-- CONTENEDOR GENERAL DE CONTENIDO -->
+<div>
+
+    <!-- SECCIÓN 1: DIRECTRICES GENERALES -->
+    <h2 class="section-title">1. Directrices Generales y Estándar de Entrega</h2>
+    <p>
+        La presente consigna establece los requisitos técnicos, de maquetación y de entrega para la serie de 5 mini proyectos de Desarrollo Web Front-End (HTML5 y CSS3). Cada estudiante o equipo debe desarrollar los proyectos de manera incremental, aplicando buenas prácticas de código limpio y semántico.
+    </p>
+
+    <!-- TARJETA DE REGLAS Y NORMAS -->
+    <div class="rules-card">
+        <h3>📋 Normas Generales de Entrega</h3>
+        <ul>
+            <li>
+                <strong>Control de Versiones y GitHub:</strong> Todos los proyectos deben ser publicados en un único repositorio público de GitHub denominado <code>html-css-miniprojects</code>. Cada ejercicio debe estar alojado en su carpeta correspondiente (ej. <code>/ejercicio-01/</code>).
+            </li>
+            <li>
+                <strong>Modalidad de Entrega en Aula Virtual:</strong> El estudiante subirá al Aula Virtual un archivo de texto en formato Markdown (<code>entrega_proyectos.md</code>) o PDF que contenga el enlace principal al repositorio de GitHub y los enlaces directos a las carpetas de cada ejercicio.
+            </li>
+            <li>
+                <strong>Estándar de Código:</strong> Uso obligatorio de HTML5 semántico (sin divitis), separación total de estructura (HTML) y presentación (CSS), archivos CSS externos vinculados correctamente, y sangrado/indentación de 2 o 4 espacios.
+            </li>
+            <li>
+                <strong>Despliegue Opcional/Recomendado:</strong> Se evaluará positivamente la activación de <strong>GitHub Pages</strong> para la previsualización directa de cada proyecto.
+            </li>
+        </ul>
+    </div>
+
+    <hr />
+
+    <!-- SECCIÓN 2: ESTRUCTURA DE LOS 5 EJERCICIOS -->
+    <h2 class="section-title">2. Especificaciones de los 5 Ejercicios Prácticos</h2>
+
+    <!-- EJERCICIO 01 -->
+    <div class="exercise-card">
+        <h3>Ejercicio 01: Tarjeta de Presentación Personal (Perfil Digital)</h3>
+        <p class="file-path">
+            📁 Estructura en repositorio: <code>html-css-miniprojects/ejercicio-01/index.html</code> y <code>css/styles.css</code>
+        </p>
+        <p><strong>Contenido Exigido:</strong></p>
+        <ol>
+            <li><strong>HTML Semántico:</strong> Uso correcto de etiquetas de estructura principal (<code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>).</li>
+            <li><strong>Manejo del Modelo de Caja (Box Model):</strong> Aplicación explícita de <code>margin</code>, <code>padding</code>, <code>border</code> y <code>border-radius</code> para crear una tarjeta de perfil redondeada y centrada.</li>
+            <li><strong>Multimedia y Tipografía:</strong> Inclusión de imagen de avatar recortada circularmente (<code>object-fit: cover</code>) y vinculación de fuentes desde Google Fonts.</li>
+        </ol>
+
+        <div class="code-box">
+            <div class="code-header">### Criterios de Aceptación (Gherkin / BDD):</div>
+            <p style="margin: 0 0 3px 0;"><span class="code-highlight">DADO</span> que el usuario abre la página en el navegador</p>
+            <p style="margin: 0 0 3px 0;"><span class="code-highlight">CUANDO</span> se renderiza el archivo index.html</p>
+            <p style="margin: 0 0 8px 0;"><span class="code-highlight">ENTONCES</span> se visualiza una tarjeta centrada en pantalla con avatar circular, nombre completo en &lt;h1&gt;, biografía corta, lista de habilidades y enlaces a redes sociales.</p>
+            
+            <p style="margin: 0 0 2px 0; color: #FFD166;">#### Estructura CSS Clave Requerida</p>
+            <p style="margin: 0 0 2px 0;">.profile-card { <span class="code-string">max-width: 380px; margin: 40px auto; padding: 24px; border-radius: 12px;</span> }</p>
+            <p style="margin: 0;">.avatar { <span class="code-string">width: 120px; height: 120px; border-radius: 50%; object-fit: cover;</span> }</p>
+        </div>
+    </div>
+
+    <!-- EJERCICIO 02 -->
+    <div class="exercise-card">
+        <h3>Ejercicio 02: Página de Receta de Cocina Interactiva</h3>
+        <p class="file-path">
+            📁 Estructura en repositorio: <code>html-css-miniprojects/ejercicio-02/index.html</code> y <code>css/styles.css</code>
+        </p>
+        <p><strong>Contenido Exigido:</strong></p>
+        <ol>
+            <li><strong>Estructuración de Listas y Tablas:</strong> Uso de listas no ordenadas (<code>&lt;ul&gt;</code>) para ingredientes con checkboxes personalizados, listas ordenadas (<code>&lt;ol&gt;</code>) para los pasos, y una tabla (<code>&lt;table&gt;</code>) estructurada con <code>&lt;thead&gt;</code> y <code>&lt;tbody&gt;</code> para valores nutricionales.</li>
+            <li><strong>Estilos de Interacción y Pseudo-clases:</strong> Resaltado de ítems mediante <code>:hover</code>, diferenciación de líneas de la tabla con filas alternadas (zebra striping con <code>:nth-child(even)</code>) y estilizado de elementos de foco.</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Elemento HTML</th>
+                    <th>Requisito CSS Obligatorio</th>
+                    <th>Comportamiento Esperado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>&lt;table class="nutrition-table"&gt;</code></td>
+                    <td><code>border-collapse: collapse; width: 100%;</code></td>
+                    <td>Bordes colapsados limpios y tabla adaptada al ancho del contenedor.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;tr:nth-child(even)&gt;</code></td>
+                    <td><code>background-color: #F8F9FA;</code></td>
+                    <td>Lectura ágil con filas en tonos alternados de gris claro.</td>
+                </tr>
+                <tr>
+                    <td><code>&lt;li:hover&gt;</code> (Ingredientes)</td>
+                    <td><code>background-color: #E9ECEF; transition: 0.2s;</code></td>
+                    <td>Feedback visual cuando el cursor pasa sobre un paso o ingrediente.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- EJERCICIO 03 -->
+    <div class="exercise-card">
+        <h3>Ejercicio 03: Landing Page de Producto / Servicio (Flexbox Layout)</h3>
+        <p class="file-path">
+            📁 Estructura en repositorio: <code>html-css-miniprojects/ejercicio-03/index.html</code> y <code>css/styles.css</code>
+        </p>
+        <p><strong>Contenido Exigido:</strong></p>
+        <ol>
+            <li><strong>Navegación y Cabecera Flexible:</strong> Barra de navegación horizontal construida con <code>display: flex</code>, <code>justify-content: space-between</code> y <code>align-items: center</code>.</li>
+            <li><strong>Sección Hero (Principal):</strong> Bloque de impacto visual centrado con titular, bajada descriptiva y botón Call-to-Action (CTA) estilizado.</li>
+            <li><strong>Sección de Características (Features):</strong> Disposición de 3 tarjetas alineadas horizontalmente mediante Flexbox (<code>flex-direction: row</code>, <code>gap</code> y <code>flex: 1</code>).</li>
+        </ol>
+
+        <div class="code-box">
+            <div class="code-header">-- Esquema de Maquetación Flexbox Requerido en CSS</div>
+            <p style="margin: 0;"><span class="code-highlight">.navbar</span> { display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }</p>
+            <p style="margin: 0;"><span class="code-highlight">.features-grid</span> { display: flex; gap: 20px; flex-wrap: wrap; }</p>
+            <p style="margin: 0;"><span class="code-highlight">.feature-card</span> { flex: 1 1 280px; padding: 20px; background: #FFFFFF; border-radius: 8px; }</p>
+        </div>
+    </div>
+
+    <!-- EJERCICIO 04 -->
+    <div class="exercise-card">
+        <h3>Ejercicio 04: Galería de Portafolio Adaptable (CSS Grid & Responsive)</h3>
+        <p class="file-path">
+            📁 Estructura en repositorio: <code>html-css-miniprojects/ejercicio-04/index.html</code> y <code>css/styles.css</code>
+        </p>
+        <p><strong>Contenido Exigido:</strong></p>
+        <ol>
+            <li><strong>Grilla Fluid CSS Grid:</strong> Implementación de <code>display: grid</code> con <code>grid-template-columns: repeat(auto-fit, minmax(250px, 1fr))</code> para un diseño responsivo automático sin romper filas.</li>
+            <li><strong>Tratamiento de Imágenes:</strong> Uso estricto de <code>width: 100%</code>, <code>height: 200px</code> y <code>object-fit: cover</code> para garantizar una uniforme presentación de imágenes.</li>
+            <li><strong>Efectos Micro-interactivos:</strong> Animación en transiciones con <code>transition: transform 0.3s ease</code> y zoom suave en hover (<code>transform: scale(1.03)</code>).</li>
+        </ol>
+
+        <div class="info-callout">
+            <strong>Requisito de Adaptabilidad:</strong> El proyecto debe incluir al menos una regla de Media Queries (<code>@media (max-width: 768px)</code>) para ajustar márgenes, tamaños de fuente y padding en pantallas pequeñas.
+        </div>
+    </div>
+
+    <!-- EJERCICIO 05 -->
+    <div class="exercise-card">
+        <h3>Ejercicio 05: Componente de Tabla de Precios (Pricing Cards con Variables CSS)</h3>
+        <p class="file-path">
+            📁 Estructura en repositorio: <code>html-css-miniprojects/ejercicio-05/index.html</code> y <code>css/styles.css</code>
+        </p>
+        <p><strong>Contenido Exigido:</strong></p>
+        <ol>
+            <li><strong>Variables CSS (Custom Properties):</strong> Declaración de paleta de colores, fuentes y espaciados en el bloque <code>:root</code> y reutilización mediante <code>var(--nombre-variable)</code>.</li>
+            <li><strong>Destacado Visual de Tarjeta Principal:</strong> Tres planes (Básico, Pro, Enterprise) donde el plan "Pro" o recomendado destaca mediante escalado (<code>transform: scale(1.05)</code>), borde diferencial e insignia "Más Popular" posicionada con <code>position: absolute</code>.</li>
+            <li><strong>Botones y Estados de Interacción:</strong> Botones interactivos con cambios de fondo y sombra dinámica (<code>box-shadow</code>) en hover y active.</li>
+        </ol>
+
+        <div class="code-box">
+            <div class="code-header">/* Declaración de Variables CSS Obligatoria */</div>
+            <p style="margin: 0;"><span class="code-highlight">:root</span> {</p>
+            <p style="margin: 0; padding-left: 20px;">--primary-color: <span class="code-string">#6802C1</span>;</p>
+            <p style="margin: 0; padding-left: 20px;">--accent-color: <span class="code-string">#63AEE6</span>;</p>
+            <p style="margin: 0; padding-left: 20px;">--text-dark: <span class="code-string">#212322</span>;</p>
+            <p style="margin: 0; padding-left: 20px;">--bg-light: <span class="code-string">#F8F9FA</span>;</p>
+            <p style="margin: 0; padding-left: 20px;">--radius-card: <span class="code-string">10px</span>;</p>
+            <p style="margin: 0;">}</p>
+        </div>
+    </div>
+
+    <hr />
+
+    <!-- SECCIÓN 3: MATRIZ DE EVALUACIÓN -->
+    <h2 class="section-title">3. Matriz y Rúbrica de Evaluación</h2>
+    <p>
+        Cada uno de los 5 ejercicios tiene un peso equivalente al 20% de la calificación total del bloque práctico. La evaluación se guiará por la siguiente escala multidimensional:
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Criterio de Evaluación</th>
+                <th>Excelente (100%)</th>
+                <th>En Proceso (70%)</th>
+                <th>Requiere Mejora (40%)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Semántica HTML5</strong></td>
+                <td>Uso impecable de etiquetas semánticas según su propósito estructural. Sin etiquetas obsoletas.</td>
+                <td>Uso aceptable de HTML5, pero incluye algunos contenedores <code>&lt;div&gt;</code> innecesarios.</td>
+                <td>Estructura basada exclusivamente en <code>&lt;div&gt;</code> y <code>&lt;span&gt;</code> sin valor semántico.</td>
+            </tr>
+            <tr>
+                <td><strong>Layouts CSS (Flexbox / Grid)</strong></td>
+                <td>Uso correcto y fluido de Flexbox y/o CSS Grid. Diseño responsive funcional en móviles y desktop.</td>
+                <td>Maquetación correcta pero con problemas de desbordamiento o desalineación en ciertas pantallas.</td>
+                <td>Uso de floats o posicionamiento absoluto inadecuado para la maquetación general.</td>
+            </tr>
+            <tr>
+                <td><strong>Diseño Visual y UX</strong></td>
+                <td>Estética cuidada, contraste accesible, jerarquía tipográfica clara y uso armónico del modelo de caja.</td>
+                <td>Diseño básico, márgenes desiguales o falta de contraste en algunos textos secundario.</td>
+                <td>Apariencia sin estilizar, desproporcionada o con elementos colapsados.</td>
+            </tr>
+            <tr>
+                <td><strong>Estructura en GitHub</strong></td>
+                <td>Repositorio ordenado, nombres de carpetas y archivos exactos a la consigna, commit mensajes claros.</td>
+                <td>Repositorio creado, pero con nombres de carpetas imprecisos o desorden de archivos CSS.</td>
+                <td>Archivos subidos sin estructura de carpetas o enlaces RLS incompletos.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- SECCIÓN 4: INSTRUCCIONES AULA VIRTUAL -->
+    <h2 class="section-title">4. Formato de Entrega en el Aula Virtual</h2>
+    <p>
+        Para completar la entrega, debes crear un archivo de texto llamado <code>entrega_proyectos.md</code> en tu equipo y cargarlo en la tarea del Aula Virtual antes de la fecha límite.
+    </p>
+
+    <div class="code-box">
+        <div class="code-header"># Plantilla de Archivo de Entrega (entrega_proyectos.md)</div>
+        <p style="margin: 0 0 5px 0;"><span class="code-highlight"># Entrega de Mini Proyectos HTML5 & CSS3</span></p>
+        <p style="margin: 0 0 5px 0;">- **Estudiante:** [Tu Nombre Completo]</p>
+        <p style="margin: 0 0 5px 0;">- **Comisión/Grupo:** [Número de Comisión]</p>
+        <p style="margin: 0 0 10px 0;">- **Enlace al Repositorio Principal:** https://github.com/tu-usuario/html-css-miniprojects</p>
+
+        <p style="margin: 0 0 3px 0; color: #FFD166;">## Enlaces Directos a los Ejercicios:</p>
+        <p style="margin: 0 0 2px 0;">1. **Ejercicio 01 - Tarjeta Personal:** https://github.com/tu-usuario/html-css-miniprojects/tree/main/ejercicio-01</p>
+        <p style="margin: 0 0 2px 0;">2. **Ejercicio 02 - Receta de Cocina:** https://github.com/tu-usuario/html-css-miniprojects/tree/main/ejercicio-02</p>
+        <p style="margin: 0 0 2px 0;">3. **Ejercicio 03 - Landing Page:** https://github.com/tu-usuario/html-css-miniprojects/tree/main/ejercicio-03</p>
+        <p style="margin: 0 0 2px 0;">4. **Ejercicio 04 - Galería Grid:** https://github.com/tu-usuario/html-css-miniprojects/tree/main/ejercicio-04</p>
+        <p style="margin: 0 0 2px 0;">5. **Ejercicio 05 - Tabla de Precios:** https://github.com/tu-usuario/html-css-miniprojects/tree/main/ejercicio-05</p>
+
+        <p style="margin: 8px 0 3px 0; color: #FFD166;">## Enlace a GitHub Pages (Opcional):</p>
+        <p style="margin: 0;">- https://tu-usuario.github.io/html-css-miniprojects/</p>
+    </div>
+
+</div>
+
+</body>
+</html>

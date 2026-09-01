@@ -7,8 +7,8 @@
 - **Nombre del docente:** Gamarra Moreno, Job Daniel
 
 ## Enlaces a los Ejercicios
-- [Ejercicio 01 - Tarjeta de Presentación Personal](./ejercicio-01)
-- [Ejercicio 02](./ejercicio-02)
-- [Ejercicio 03](./ejercicio-03)
-- [Ejercicio 04](./ejercicio-04)
-- [Ejercicio 05](./ejercicio-05)
+- [Ejercicio 01 - Tarjeta Personal](./ejercicio-01)
+- [Ejercicio 02 - Receta de Cocina](./ejercicio-02)
+- [Ejercicio 03 - Landing Page](./ejercicio-03)
+- [Ejercicio 04 - Galería Grid](./ejercicio-04)
+- [Ejercicio 05 - Tabla de Precios](./ejercicio-05)

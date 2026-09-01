@@ -1,0 +1,109 @@
+/* Reseteo básico y tipografía */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.recipe-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #E9ECEF;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #34495e;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #E9ECEF;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* --- Requerimientos Obligatorios de la Consigna --- */
+
+/* Tablas */
+table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+/* Efecto Zebra para filas alternadas */
+tr:nth-child(even) {
+    background-color: #F8F9FA;
+}
+
+/* Interactive Feedback para ítems de lista */
+li:hover {
+    background-color: #E9ECEF;
+    transition: 0.2s;
+}
+
+/* --- Estilos adicionales para mejorar la vista --- */
+.ingredients-list {
+    list-style: none; /* Quitamos los bullets porque usaremos checkboxes */
+}
+
+.ingredients-list li, .procedure-list li {
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.ingredients-list label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ingredients-list input[type="checkbox"] {
+    margin-right: 12px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Estilos de foco para la interacción */
+input[type="checkbox"]:focus {
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+}
+
+.procedure-list {
+    padding-left: 20px;
+}
